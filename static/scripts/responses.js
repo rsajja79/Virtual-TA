@@ -11,9 +11,6 @@
                 // xhr.open("POST", url,false); 
 
 
-                // xhr.setRequestHeader("Authorization", "Bearer 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");
-                // xhr.setRequestHeader("Content-Type", "application/json");
-
              xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4) {
                     console.log(xhr.status);
