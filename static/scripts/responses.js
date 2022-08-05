@@ -15,8 +15,11 @@
                 if (xhr.readyState === 4) {
                     console.log(xhr.status);
                     console.log(xhr.responseText);
+                    console.log()
                     var data=xhr.responseText;
                     var jsonResponse = JSON.parse(data);
+                    console.log(jsonResponse);
+
                     res = jsonResponse["message"];
                     
                     // res = answers.reduce(
